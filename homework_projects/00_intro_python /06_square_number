@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMr9t+9+OmwNcdYoFnUO2P4",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mraza24/ai_python_assignment_04/blob/main/homework_projects/00_intro_python%20/06_square_number\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XcHQd3Rxy0vm",
+        "outputId": "b386e73a-9a6a-450d-9b7f-9dbfc9c8ab94"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Type a number to see its square: 5\n",
+            "5.0 squared is 25.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "def main():\n",
+        "    # Ask the user to type a number\n",
+        "    number = float(input(\"Type a number to see its square: \"))\n",
+        "\n",
+        "    # Calculate the square of the number\n",
+        "    square = number * number\n",
+        "\n",
+        "    # Print the result\n",
+        "    print(str(number) + \" squared is \" + str(square))\n",
+        "\n",
+        "# This provided line is required to call the main() function\n",
+        "if __name__ == '__main__':\n",
+        "    main()"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "64keVHNPzC1k"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
